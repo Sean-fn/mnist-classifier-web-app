@@ -1,6 +1,9 @@
 # mnist-classifier-web-app
 
-This work was finished by the end of dec 2022
+***This is one of my early projects, finished by the end of dec 2022***
+
+This is a web app that can classify handwritten digits from 0 to 9. The model is trained using the MNIST dataset. The model is a feed forward neural network with 2 hidden layers. The model is trained using PyTorch. The web app is built using Flask.
+
 
 ## Dependencies
 
@@ -11,9 +14,9 @@ This work was finished by the end of dec 2022
 
 ## How To Use
 
-- In order to get the .pth file, run `python app/mnist_ffn.py` to train the model
-- Run `python app/app.py` to start the web app
-- Run `python app/test_six.py` to test the web app
+1. In order to get the .pth file, run `python app/mnist_ffn.py` to train the model
+2. Run `python app/app.py` to start the web app
+3. Run `python app/test_six.py` to test the web app
 
 ## References
 
